@@ -9,14 +9,14 @@ function App() {
             <h1>Main Page</h1>
             <BrowserRouter>
                 <nav>
-                    <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/about'>About</NavLink>
-                    <NavLink to='/contact'>Contact</NavLink>
+                    <NavLink to='/sample'>Home</NavLink>
+                    <NavLink to='/sample/about'>About</NavLink>
+                    <NavLink to='/sample/contact'>Contact</NavLink>
                 </nav>
                 <Routes>
-                    <Route path='/' />
-                    <Route path='/about' element={<About />} />
-                    <Route path='/contact' element={<Contact />} />
+                    <Route path='/sample/' />
+                    <Route path='/sample/about' element={<About />} />
+                    <Route path='/sample/contact' element={<Contact />} />
                 </Routes>
             </BrowserRouter>
         </div>

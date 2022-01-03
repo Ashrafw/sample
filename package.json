@@ -1,6 +1,6 @@
 {
     "name": "sample",
-    "homepage": "http://ashrafw.github.io/sample",
+    "homepage": "https://ashrafw.github.io/sample",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
